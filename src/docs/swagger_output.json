@@ -9,6 +9,10 @@
     {
       "url": "http://localhost:3000/api",
       "description": "Development server"
+    },
+    {
+      "url": "https://backend-web-unindo.vercel.app/api",
+      "description": "Production server"
     }
   ],
   "paths": {
@@ -931,30 +935,6 @@
         },
         "xml": {
           "name": "CreateBrandRequest"
-        }
-      },
-      "CreateMarketingRequest": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string",
-            "example": ""
-          },
-          "phoneNumber": {
-            "type": "string",
-            "example": ""
-          },
-          "picture": {
-            "type": "string",
-            "example": ""
-          },
-          "isActive": {
-            "type": "boolean",
-            "example": true
-          }
-        },
-        "xml": {
-          "name": "CreateMarketingRequest"
         }
       },
       "CreateProductRequest": {

@@ -11,6 +11,10 @@ const doc = {
             url: "http://localhost:3000/api",
             description: "Development server",
         },
+        {
+            url: "https://backend-web-unindo.vercel.app/api",
+            description: "Production server",
+        },
     ], 
     components: {
         securitySchemes: {
@@ -48,12 +52,6 @@ const doc = {
                 name: "",
                 icon: "",
                 isShow: true,
-            },
-            CreateMarketingRequest: {
-                name: "",
-                phoneNumber: "",
-                picture: "",
-                isActive: true,
             },
             CreateProductRequest: {
                 name: "",
